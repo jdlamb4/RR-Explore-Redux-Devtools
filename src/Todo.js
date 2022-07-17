@@ -13,7 +13,7 @@ function Todo() {
         e.preventDefault()
         dispatch(addTodo(input))
     }
-
+ 
     return (
         <div>
             <form onSubmit={(e) => submitForm(e)}>

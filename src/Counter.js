@@ -5,7 +5,7 @@ import { decrement, increment, incrementByAmount } from './features/counterSlice
 function Counter() {
     const count = useSelector((state) => state.counter.value)
     const dispatch = useDispatch()
-    const [input, setInput] = useState(0)
+    const [input, setInput] = useState(0) 
 
     const byAmount = (e) => {
         e.preventDefault()
